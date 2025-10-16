@@ -50,8 +50,8 @@ Após os downloads, criar as VM's dentro do VirtualBox com as respectivas ISO's 
 2. Auditoria
 
 2.1 Enumeração
-
-'nmap -sV -p 21,22,80,445,139 192.168.56.101'
-
+````
+nmap -sV -p 21,22,80,445,139 192.168.56.101
+````
 - No primeiro passo da Auditoria, precisamos enumerar quais portas estão abertas no IP do alvo, e pra isso utilizamos o comando "nmap" seguido dos parâmetros "-sV" (versões dos serviços) e "-p" (para verificar as portas dos serviços, que no nosso caso, utilizamos portas comuns) e por último o IP.
 
