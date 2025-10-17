@@ -11,11 +11,9 @@ Este projeto documenta a montagem de um ambiente controlado (Kali Linux + Metasp
 ## Ambiente
 - **Host:** VirtualBox  
 - **VMs:**
-  - **Kali Linux** (atacante) — IP exemplo: `192.168.56.102`
-  - **Metasploitable 2** (alvo) — IP exemplo: `192.168.56.101` (serviços: FTP, SMB, DVWA)
+  - **Kali Linux** (atacante)
+  - **Metasploitable 2** (alvo) — IP: `192.168.56.101` (serviços: FTP, SMB, DVWA)
 - **Rede:** Host-only / Internal Network (ambas as VMs na mesma rede privada)
-
-> Ajuste os IPs acima conforme a sua configuração real (use `ip a` / `ifconfig` nas VMs para confirmar).
 
 ---
 
